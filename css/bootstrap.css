@@ -66,9 +66,9 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background: #EF3B36;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #FFFFFF, #EF3B36) 100%;  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2c3e50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 [tabindex="-1"]:focus {
@@ -1588,7 +1588,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  background-color: #b20a2c;
+  background-color: #182848;
   color:white;
 }
 
@@ -4663,7 +4663,7 @@ input[type="button"].btn-block {
   z-index: 2;
   color: white;
   text-decoration: none;
-  background-color: #b20a2c;
+  background-color: #182848;
   border-color: #dee2e6;
 }
 
@@ -4691,8 +4691,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #b20a2c;
-  border-color: #b20a2c;
+  background-color: #182848;
+  border-color: #182848;
 }
 
 .page-item.disabled .page-link {
